@@ -1,11 +1,11 @@
-from abc import ABC, abstractmenthod
+from abc import ABC, abstractmethod
 
 class Absclass(ABC):
     
     def print(self,x):
         print("passed value:", x)
 
-    @abstractmenthod
+    @abstractmethod
     def task(self):
         print("we re inside absclass task")
 
